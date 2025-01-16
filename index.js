@@ -14,7 +14,7 @@ connectDB();
 const app = express();
 app.use(
     cors({
-      origin: 'https://socialdetail.vercel.app/', 
+      origin: 'https://socialdetail.vercel.app', 
       methods: ['GET', 'POST', 'PUT', 'DELETE'], 
       credentials: true, 
     })
